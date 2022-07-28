@@ -5,9 +5,9 @@ vendor/bin/phpunit
 
 (git push) || true
 
-git checkout master
-git merge master
+git checkout main
+git merge Desarrollo
 
-git push origin master
+git push origin main
 
-git checkout master
+git checkout Desarrollo
