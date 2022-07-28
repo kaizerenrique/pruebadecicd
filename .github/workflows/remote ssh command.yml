@@ -13,5 +13,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         script: |
+          script: |
           whoami
+          cd /var/www
           ls -al
